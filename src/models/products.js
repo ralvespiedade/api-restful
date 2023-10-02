@@ -3,8 +3,8 @@ const mongoose = require('mongoose')
 //Criando schema
 const schema = new mongoose.Schema({
     name: String,
-    brand: Number,
-    price: String
+    brand: String,
+    price: Number
 })
 
 //Definindo Model para a tabela products
